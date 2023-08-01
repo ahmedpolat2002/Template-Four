@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings</title>
-    <link rel="stylesheet" href="css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet"
@@ -189,18 +193,91 @@
                     </div>
                     <div class="d-flex align-center mb-15">
                         <!-- icon tweet + center-flex c-gray -->
-                        <i class="fa-brands fa-twitter center-flex c-grey"></i>
+                        <i class="fa-brands fa-facebook center-flex c-grey"></i>
                         <input class="w-full" type="text" placeholder="Facebook Username">
                     </div>
                     <div class="d-flex align-center mb-15">
                         <!-- icon tweet + center-flex c-gray -->
-                        <i class="fa-brands fa-twitter center-flex c-grey"></i>
+                        <i class="fa-brands fa-linkedin center-flex c-grey"></i>
                         <input class="w-full" type="text" placeholder="Linkedin Username">
                     </div>
                     <div class="d-flex align-center mb-15">
                         <!-- icon tweet + center-flex c-gray -->
-                        <i class="fa-brands fa-twitter center-flex c-grey"></i>
+                        <i class="fa-brands fa-youtube center-flex c-grey"></i>
                         <input class="w-full" type="text" placeholder="Youtube Username">
+                    </div>
+                </div>
+                <div class="widgets-control p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Widgets Control</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">show/hide Widget</p>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="one">
+                        <label for="one">Quick Draft</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="two">
+                        <label for="two">Yearly Targets</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="three">
+                        <label for="three">Tickets</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="four">
+                        <label for="four">Latest News</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="five">
+                        <label for="five">Latest Tasks</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="six">
+                        <label for="six">Top Search Items</label>
+                    </div>
+                </div>
+                <div class="backup-control p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Backup Manager</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">Control Backup Time And Location</p>
+                    <div class="date d-flex align-center mb-15">
+                        <input type="radio" name="time" id="daily" checked>
+                        <label for="daily">Daily</label>
+                    </div>
+                    <div class="date d-flex align-center mb-15">
+                        <input type="radio" name="time" id="weekly">
+                        <label for="weekly">Weekly</label>
+                    </div>
+                    <div class="date d-flex align-center mb-15">
+                        <input type="radio" name="time" id="monthly">
+                        <label for="monthly">Monthly</label>
+                    </div>
+                    <div class="servers d-flex align-center gap-5 txt-c">
+                        <input type="radio" name="servers" id="server-one">
+                        <div class="server mb-15 rad-10 w-full">
+                            <label class="d-block m-15" for="server-one">
+                                <span class="material-symbols-outlined mb-10">
+                                    dns
+                                </span>
+                                Megaman
+                            </label>
+                        </div>
+                        <input type="radio" name="servers" id="server-two">
+                        <div class="server mb-15 rad-10 w-full">
+                            <label class="d-block m-15" for="server-two">
+                                <span class="material-symbols-outlined mb-10">
+                                    dns
+                                </span>
+                                Sigma
+                            </label>
+                        </div>
+                        <input type="radio" name="servers" id="server-three" checked>
+                        <div class="server mb-15 rad-10 w-full">
+                            <label class="d-block m-15" for="server-three">
+                                <span class="material-symbols-outlined mb-10">
+                                    dns
+                                </span>
+                                Zero
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
